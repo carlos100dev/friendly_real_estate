@@ -1,0 +1,48 @@
+.jumbotron {
+  background: none; }
+
+.cover-text {
+  color: white;
+  background-color: rgba(40, 40, 40, 0.3); }
+
+.home-banner {
+  background-image: url("img/modern-home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.home-banner-btn-outline {
+  color: white;
+  border-color: white;
+  background-color: rgba(40, 40, 40, 0.75); }
+
+.home-banner-btn-outline:active {
+  border-color: grey; }
+
+.footer {
+  background-color: black;
+  color: #6c757d;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.home-contact-text-lt {
+  color: white; }
+
+.home-contact-text-mute {
+  color: #DDD; }
+
+.home-contact-bg {
+  background: #a8c0ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(#3f2b96, #a8c0ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(#3f2b96, #a8c0ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.listing-single-banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 75vh; }
+
+/*# sourceMappingURL=site.css.map */
