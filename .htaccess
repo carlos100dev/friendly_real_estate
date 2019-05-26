@@ -1,6 +1,3 @@
 RewriteEngine on
-RewriteBase "/code/php-router/"
-FallbackResource /code/php-router/index.php
-# RewriteCond "localhost/code/php-router/%{REQUEST_FILENAME}" !-f
-# RewriteCond "localhost/code/php-router/%{REQUEST_FILENAME}" !-d
-# RewriteRule "\/(.*)\/?" "/code/php-router/index.php" [PT]
+RewriteBase "/git/friendly_real_estate/"
+FallbackResource /git/friendly_real_estate/index.php
