@@ -40,6 +40,10 @@ $router->get('/create_listing', function(Request $request) use (&$pageController
   return $pageController->create_listing($request, $pdo);
 });
 
+$router->post('/create_listing', function(Request $request) use (&$pageController, &$pdo){
+  return $pageController->create_listing($request, $pdo);
+});
+
 // example post route
 // $router->post('/listing', function(Request $request){
 // 	require('profile.php');
